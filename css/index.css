@@ -1,0 +1,313 @@
+body>video{
+    width: 100%;
+    height: 1080px;
+    object-fit: cover;
+    /*background-color: red;*/
+}
+.content{
+    width: 100%;
+    background-color: rgba(0,0,0,0);
+    position: absolute;
+    z-index: 2;
+    overflow: hidden;
+}
+.header{
+    width: 1196px;
+    height: 1080px;
+    margin: 0 auto;
+    
+}
+h1{
+    display: inline-block;
+}
+h1>img{
+    width: 396px;
+   cursor: pointer;
+    z-index: 3;
+    position: relative;
+}
+
+.header>ul{
+    width: 1196px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 45px;
+}
+.header>ul>li{
+    float: left;
+    width: 200px;
+    height: 60px;
+    background: linear-gradient(to bottom,#46018c,#0200a1);
+    line-height: 60px;
+    border-right: 1px solid rgba(255,255,255,0.5);
+    box-sizing: border-box;
+
+}
+
+.header>ul>li:nth-child(2){
+    border-right:none;
+    box-sizing: border-box;
+    margin-right: 396px;
+}
+.header>ul>li:last-child{
+     border: none;
+    box-sizing: border-box;
+    background:url("../images/download2.0.png") no-repeat;
+
+ }
+
+.header>ul>li>a{
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 18px;
+    color: #fff;
+    background: url("../images/nav-itembg.png") no-repeat 0 0;
+    border-bottom: 2px solid transparent;
+    transition: border-color 0.5s;
+    box-sizing: border-box;
+}
+.header>ul>li:last-child>a{
+    background: none;
+}
+.header>ul>li>a:hover{
+    border-color: #fff;
+}
+/*中间内容展示区域*/
+.main{
+    position: absolute;
+    width: 100%;
+  margin: 0 auto;
+     top: 250px;
+}
+.poster{
+    margin: 0 auto;
+    width: 1196px;
+}
+.video-box{
+    width: 1196px;
+    margin: 0 auto;
+    bottom:120px;
+    margin-top: 330px;
+
+}
+.video-box>ul{
+    display: flex;
+   justify-content: space-between;
+}
+.video-box>ul>li{
+    float: left;
+    width: 310px;
+    height: 205px;
+    /*background-color: purple;*/
+
+}
+.video-box>ul>li>p{
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    font-size: 20px;
+    color: #fff;
+    background-color: #15112d;
+    border:2px solid rgba(255,255,255,0.1);
+    box-sizing: border-box;
+}
+.video-box>ul>li>a{
+    display: inline-block;
+
+}
+.video-box>ul>li>a>img{
+    height: 100%;
+    width: 310px;
+    object-fit: cover;
+    border:2px solid rgba(101,95,199,1);
+    box-sizing: border-box;
+}
+/*footer*/
+.footer{
+    width: 100%;
+    height: 502px;
+    background-color: black;
+    border-top: 3px solid #630d8f;
+    box-sizing: border-box;
+    margin: 0 auto;
+    position: relative;
+
+}
+.footer-in{
+    width: 1000px;
+    height: 100%;
+    margin: 0 auto;
+    background-color:black;
+}
+.footer-top{
+    width: 100%;
+    height: 19px;
+    margin-top: 125px;
+
+}
+.footer-top-left{
+    float: left;
+}
+.footer-top-left>ul>li{
+    width: 90px;
+    float: left;
+    margin-left: 25px;
+
+
+}
+.footer-top-left>ul>li>span{
+    width: 19px;
+    height: 19px;
+    display: inline-block;
+    background:url("../images/footer-top.png") no-repeat -6px -7px;
+    vertical-align: bottom;
+}
+.footer-top-left>ul>li:nth-child(2)>span{
+    background:url("../images/footer-top.png") no-repeat -34px -7px;
+    vertical-align: bottom;
+}
+.footer-top-left>ul>li:nth-child(3)>span{
+    background:url("../images/footer-top.png") no-repeat -6px -100px;
+    vertical-align: bottom;
+}
+.footer-top-left>ul>li>p{
+    display: inline-block;
+}
+.footer-top-left>ul>li>p>a{
+    font-size: 14px;
+    color: #fff;
+    display: inline-block;
+    text-decoration: none;
+}
+.footer-top-right{
+    float: right;
+}
+.footer-top-right>span{
+    font-size: 14px;
+    color: white;
+    display: inline-block;
+    margin-right: 10px;
+
+}
+.footer-top-right>span:nth-child(2){
+    padding-left: 10px;
+}
+.footer-top-right{
+    vertical-align:top;
+}
+.footer-top-right i{
+    display: inline-block;
+    width: 95px;
+    height: 26px;
+    background: url("../images/footer-top.png") no-repeat -142px -52px;
+    vertical-align:top;
+}
+.footer-top-right b{
+    width: 18px;
+    height: 18px;
+    background-color: #2b0473;
+    display: inline-block;
+    vertical-align: top;
+    border: 1px solid #462385;
+    box-sizing: border-box;
+    color: white;
+    font-weight: bold;
+    font-size: 12px;
+    padding-top:1px;
+}
+.footer-bottom{
+    width: 1000px;
+    height: 200px;
+    /*background-color: yellow;*/
+}
+.footer-bottom-left{
+    float: left;
+    margin-left: 35px;
+}
+.footer-bottom i{
+    display: inline-block;
+    width: 131px;
+    height: 71px;
+    vertical-align: bottom;
+    background: url("../images/blizzard.png") no-repeat 0 0;
+    margin-top: 45px;
+
+}
+.footer-bottom i:nth-child(2){
+    width: 125px;
+    height: 28px;
+    background: url("../images/163.png") no-repeat 0 0;
+}
+.footer-bottom-right{
+    margin-left: 75px;
+    float: right;
+    width: 620px;
+    height: 20px;
+    margin-top: 45px;
+}
+.footer-bottom-right>ul{
+    width: 620px;
+    height: 20px;
+    text-align: center;
+}
+.footer-bottom-right>ul>li>a{
+    color: white;
+    display: inline-block;
+    text-decoration: none;
+    margin-right: 3px;
+    float: left;
+    padding-right: 0;
+}
+.footer-bottom-right>ul>li{
+    width: 60px;
+    float: left;
+    color: #8eb1bc;
+    text-align: center;
+    vertical-align: center;
+}
+.footer-bottom-right>ul>li:nth-child(3){
+    margin-left: 10px;
+}
+.footer-bottom-right-page{
+    width: 620px;
+    height: 50px;
+}
+.footer-bottom-right-page>p{
+    font-size: 12px;
+    float: left;
+    color: #8eb1bc;
+    margin-top: 5px;
+}
+.footer-bottom-right-bottom{
+    width: 620px;
+    margin-top: 25px;
+}
+.footer-bottom-right-bottom>ul{
+    width: 620px; 
+}
+.footer-bottom-right-bottom>ul>li{
+    width: 26px;
+    float: left;
+    margin-right: 15px;
+}
+.footer-bottom-right-bottom>p{
+    color: #8eb1bc;
+    display: inline-block;
+    float: left;
+}
+.footer-bottom-right-bottom>p>span>a{
+    text-decoration: none;
+    margin-left: 5px;
+    color:#8eb1bc ;
+
+}
+.warring{
+    margin-top: 35px;
+}
+.warring>p{
+    font-size: 13px;
+    color: #417aa1;
+}
